@@ -1,0 +1,21 @@
+{
+    "name": "atailouloute/phpcolor",
+    "description": "Fast Color Parsing and Manipulation",
+    "require-dev": {
+        "phpunit/phpunit": "^4.8"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ahmed Tailouloute",
+            "email": "ahmed.tailouloute@gmail.com",
+            "role": "Creator"
+        }
+    ],
+    "autoload": {
+      "psr-4": {"PhpColor\\": "src/PhpColor/"}
+    },
+    "autoload-dev": {
+      "psr-4": {"PhpColor\\": "tests/PhpColor/"}
+    }
+}
